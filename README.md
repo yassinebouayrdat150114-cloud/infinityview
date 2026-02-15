@@ -5,4 +5,4 @@ Technologies used: HTML / CSS / JAVASCRIPT
 
 ![Template Preview](./Assets/preview.png)
 
-Display by visiting this link: https://anas-ou.github.io/IPTV-Provider/
+Display by visiting this link:https://infinityview.netlify.app/
