@@ -28,7 +28,7 @@
 			rel="stylesheet">
 
 			<!-- Extranal Styles -->
-			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 			<!-- Styles can found here -->
 		<link rel="stylesheet" type="text/css" href="CSS/style.css">
@@ -36,8 +36,86 @@
 		<!-- Scripts can be found here -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="JS/main.js" defer></script>
+
+
+<style>
+	.media_icon {
+    width: 24px;
+    height: 24px;
+    color: #000;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+/* Hover effect for all icons */
+.social_media li a:hover .media_icon {
+    transform: scale(1.2);
+}
+
+/* X icon: match color with other icons */
+.x_icon {
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(0%) contrast(100%);
+    width: 24px;
+    height: 24px;
+}
+
+.float-btn{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.float-btn:hover{
+    transform: scale(1.1);
+}
+
+/* WhatsApp lta7t liman */
+.whatsapp{
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+}
+
+/* Telegram lfou9 lissar */
+.telegram{
+    top: 20px;
+    left: 20px;
+    background: #0088cc;
+}
+
+}
+
+</style>
+
+
+
 	</head>
 	<body>
+
+<a href="https://wa.me/212612345678" 
+   class="float-btn whatsapp" 
+   target="_blank">
+   <i class="fa-brands fa-whatsapp"></i>
+</a>
+
+<a href="https://t.me/USERNAME"
+   class="float-btn telegram"
+   target="_blank">
+   <i class="fa-brands fa-telegram"></i>
+</a>
+
+
+</a>
+
+
 		<div class="landing_page">
 			<section id="intro_section">
 				<header class="header">
@@ -49,9 +127,32 @@
 						<li><a href="#contact_us">Contact us</a></li>
 					</ul>
 					<ul class="social_media">
-						<li><a href=""><i class="fa-brands fa-square-facebook media_icon"></i></a></li>
-						<li><a href=""><i class="fa-brands fa-square-twitter media_icon"></i></a></li>
-					</ul>
+    <!-- Facebook -->
+    <li>
+        <a href="https://facebook.com/yourpage" target="_blank">
+            <i class="fa-brands fa-facebook media_icon"></i>
+        </a>
+    </li>
+
+    <!-- X (Twitter) as image but styled like others -->
+    <li><a href=""><i class="fa-brands fa-square-x-twitter media_icon"></i></a></li>
+
+
+    <!-- Telegram -->
+    <li>
+        <a href="https://t.me/yourchannel" target="_blank">
+            <i class="fa-brands fa-telegram media_icon"></i>
+        </a>
+    </li>
+
+    <!-- Instagram -->
+    <li>
+        <a href="https://instagram.com/yourpage" target="_blank">
+            <i class="fa-brands fa-instagram media_icon"></i>
+        </a>
+    </li>
+</ul>
+
 					<i class="fa-solid fa-bars"></i>
 				</header>
 				<div id="content_header">
@@ -427,14 +528,39 @@
 			<footer>
 				<div class="header">
 					<img class="logo" src="./Assets/Logo/logo-1.webp" alt="Fox Logo">
-					<ul class="social_media">
-						<li><a href=""><i class="fa-brands fa-square-facebook media_icon"></i></a></li>
-						<li><a href=""><i class="fa-brands fa-square-x-twitter media_icon"></i></a></li>
-					</ul>
+<ul class="social_media">
+    <!-- Facebook -->
+    <li>
+        <a href="https://facebook.com/yourpage" target="_blank">
+            <i class="fa-brands fa-facebook media_icon"></i>
+        </a>
+    </li>
+
+    <!-- X (Twitter) as image but styled like others -->
+    <li><a href=""><i class="fa-brands fa-square-x-twitter media_icon"></i></a></li>
+
+
+    <!-- Telegram -->
+    <li>
+        <a href="https://t.me/yourchannel" target="_blank">
+            <i class="fa-brands fa-telegram media_icon"></i>
+        </a>
+    </li>
+
+    <!-- Instagram -->
+    <li>
+        <a href="https://instagram.com/yourpage" target="_blank">
+            <i class="fa-brands fa-instagram media_icon"></i>
+        </a>
+    </li>
+</ul>
+
+
+
 				</div>
 
 				<div class="copyright_text">
-					<p class="large">&copy; Created by AYOUB & YASSINE</p>
+					<p class="large">&copy; Created by AYOUB & YASSINE & HAMZA NAAAADI</p>
 					<p class="large">All Rights Reserved</p>
 				</div>
 			</footer>
